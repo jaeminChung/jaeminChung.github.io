@@ -1,18 +1,18 @@
 # Site settings
-title: Another Blog
-url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+title: jaeminChung's Blog
+url: "http://jaeminChung.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  프로그래밍에 관한 이것저것.
 
 # Your information
-email: your_email@example.com
-author: your_name
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+email: hijam76@gmail.com
+author: jaeminChung
+avatar: "//s.gravatar.com/avatar/64890f53bed94780fc18d72913222577?s=80"
+profile: 프로그래머, 이맥스 사용자
 #twitter_username: twitter_username
-#github_username:  github_username
+github_username:  jaeminChung
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it

@@ -1,0 +1,14 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: hijam
+#+DATE: 2017-09-10 일 22:03
+#+TITLE: 리눅스 개발환경 설정
+#+DESCRIPTION: 리눅스 개발환경 설정
+#+TAGS: linux
+#+CATEGORIES: linux
+
+* 자바 설치 : https://opentutorials.org/module/516/5558
+
+* 이클립스 설치 : http://avengerhdd.tistory.com/22

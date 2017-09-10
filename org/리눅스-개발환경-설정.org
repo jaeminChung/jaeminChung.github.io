@@ -9,6 +9,5 @@
 #+TAGS: linux
 #+CATEGORIES: linux
 
-* 자바 설치 : https://opentutorials.org/module/516/5558
-
-* 이클립스 설치 : http://avengerhdd.tistory.com/22
+1. 자바 설치 : https://opentutorials.org/module/516/5558
+2. 이클립스 설치 : http://avengerhdd.tistory.com/22

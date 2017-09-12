@@ -1,0 +1,16 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: hijam
+#+DATE: 2017-09-12 화 22:09
+#+TITLE: ubuntu 개발서버 환경설정
+#+DESCRIPTION: ubuntu 개발서버 환경설정
+#+TAGS: linux
+#+CATEGORIES: linux
+
+ 1.AMP 설치 https://yeopbox.com/%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%A9%94%EC%9D%B4%ED%8A%B8-16-04-lts-apache-php-maria-db-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/
+
+2. Apache와 Tomcat 연동 http://blog.south10.me/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%95%84%ED%8C%8C%EC%B9%98-%ED%86%B0%EC%BA%A3-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0
+
+3. Jenkins 설치 https://www.lesstif.com/pages/viewpage.action?pageId=18219537 

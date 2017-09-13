@@ -1,0 +1,155 @@
+---
+date: 2017-09-13
+tags: 
+- linux
+author: hijam
+layout: post
+title: 도커(docker) 주요 명령어
+excerpt: 도커 설치 및 주요명령어 요약
+categories: 
+- linux
+---
+
+<div id="outline-container-orgcf8fc75" class="outline-2">
+<h2 id="orgcf8fc75">설치</h2>
+<div class="outline-text-2" id="text-orgcf8fc75">
+<div class="org-src-container">
+<pre class="src src-sh">curl -s https://get.docker.com/ | sudo sh
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org94b08f8" class="outline-2">
+<h2 id="org94b08f8">명령어</h2>
+<div class="outline-text-2" id="text-org94b08f8">
+<ol class="org-ol">
+<li><p>
+버전 확인
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">curl -s https://get.docker.com/ | sudo sh
+</pre>
+</div></li>
+<li><p>
+도커실행
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
+</pre>
+</div>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">옵션</th>
+<th scope="col" class="org-left">설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">-d</td>
+<td class="org-left">detached mode 흔히 말하는 백그라운드 모드</td>
+</tr>
+
+<tr>
+<td class="org-left">-p</td>
+<td class="org-left">호스트와 컨테이너의 포트를 연결 (포워딩)</td>
+</tr>
+
+<tr>
+<td class="org-left">-v</td>
+<td class="org-left">호스트와 컨테이너의 디렉토리를 연결 (마운트)</td>
+</tr>
+
+<tr>
+<td class="org-left">-e</td>
+<td class="org-left">컨테이너 내에서 사용할 환경변수 설정</td>
+</tr>
+
+<tr>
+<td class="org-left">–name</td>
+<td class="org-left">컨테이너 이름 설정</td>
+</tr>
+
+<tr>
+<td class="org-left">–rm</td>
+<td class="org-left">프로세스 종료시 컨테이너 자동 제거</td>
+</tr>
+
+<tr>
+<td class="org-left">-it</td>
+<td class="org-left">-i와 -t를 동시에 사용한 것으로 터미널 입력을 위한 옵션</td>
+</tr>
+
+<tr>
+<td class="org-left">–link</td>
+<td class="org-left">컨테이너 연결 [컨테이너명:별칭]</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>
+컨테이너 목록 확인하기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker ps [OPTIONS]
+</pre>
+</div></li>
+<li><p>
+컨테이너 중지하기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker stop [OPTIONS] CONTAINER_ID [CONTAINER...]
+</pre>
+</div></li>
+<li><p>
+컨테이너 제거하기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker stop [OPTIONS] CONTAINER [CONTAINER...]
+</pre>
+</div></li>
+<li><p>
+중지된 컨테이너 일괄 제거하기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker rm -v $(docker ps -a -q -f status=exited)
+</pre>
+</div></li>
+<li><p>
+이미지목록 확인하기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker images [OPTIONS] [REPOSITORY[:TAG]]
+</pre>
+</div></li>
+<li><p>
+이미지 내려받기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+</pre>
+</div></li>
+<li><p>
+이미지 삭제하기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker rmi [OPTIONS] IMAGE_ID [IMAGE...]
+</pre>
+</div></li>
+<li><p>
+로그 보기
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">docker logs [OPTIONS] CONTAINER
+</pre>
+</div></li>
+</ol>
+</div>
+</div>

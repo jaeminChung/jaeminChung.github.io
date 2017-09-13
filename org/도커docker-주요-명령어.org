@@ -1,0 +1,67 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: hijam
+#+DATE: 2017-09-13 수 22:26
+#+TITLE: 도커(docker) 주요 명령어
+#+DESCRIPTION: 도커 설치 및 주요명령어 요약
+#+TAGS: linux
+#+CATEGORIES: linux
+
+* 설치
+#+BEGIN_SRC sh
+curl -s https://get.docker.com/ | sudo sh
+#+END_SRC
+
+* 명령어
+1. 버전 확인
+  #+BEGIN_SRC sh
+  curl -s https://get.docker.com/ | sudo sh
+  #+END_SRC
+2. 도커실행
+  #+BEGIN_SRC sh
+  docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
+  #+END_SRC
+  | 옵션     | 	설명                                               |
+  |----------+--------------------------------------------------------|
+  | -d       | 	detached mode 흔히 말하는 백그라운드 모드          |
+  | -p       | 	호스트와 컨테이너의 포트를 연결 (포워딩)           |
+  | -v 	  | 호스트와 컨테이너의 디렉토리를 연결 (마운트)           |
+  | -e 	  | 컨테이너 내에서 사용할 환경변수 설정                   |
+  | –name    | 	컨테이너 이름 설정                                 |
+  | –rm 	 | 프로세스 종료시 컨테이너 자동 제거                     |
+  | -it 	 | -i와 -t를 동시에 사용한 것으로 터미널 입력을 위한 옵션 |
+  | –link    | 	컨테이너 연결 [컨테이너명:별칭]                    |
+3. 컨테이너 목록 확인하기
+  #+BEGIN_SRC sh
+  docker ps [OPTIONS]
+  #+END_SRC
+4. 컨테이너 중지하기
+  #+BEGIN_SRC sh
+  docker stop [OPTIONS] CONTAINER_ID [CONTAINER...]
+  #+END_SRC
+5. 컨테이너 제거하기
+   #+BEGIN_SRC sh
+   docker stop [OPTIONS] CONTAINER [CONTAINER...]
+   #+END_SRC
+6. 중지된 컨테이너 일괄 제거하기
+   #+BEGIN_SRC sh
+   docker rm -v $(docker ps -a -q -f status=exited)
+   #+END_SRC
+7. 이미지목록 확인하기
+   #+BEGIN_SRC sh
+   docker images [OPTIONS] [REPOSITORY[:TAG]]
+   #+END_SRC
+8. 이미지 내려받기
+   #+BEGIN_SRC sh
+   docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+   #+END_SRC
+9. 이미지 삭제하기
+   #+BEGIN_SRC sh
+   docker rmi [OPTIONS] IMAGE_ID [IMAGE...]
+   #+END_SRC
+10. 로그 보기
+    #+BEGIN_SRC sh
+    docker logs [OPTIONS] CONTAINER
+    #+END_SRC

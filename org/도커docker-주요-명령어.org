@@ -17,7 +17,7 @@ curl -s https://get.docker.com/ | sudo sh
 * 명령어
 1. 버전 확인
   #+BEGIN_SRC sh
-  curl -s https://get.docker.com/ | sudo sh
+  docker version
   #+END_SRC
 2. 도커실행
   #+BEGIN_SRC sh

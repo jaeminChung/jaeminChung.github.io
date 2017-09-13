@@ -43,7 +43,7 @@ curl -s https://get.docker.com/ | sudo sh
   #+END_SRC
 5. 컨테이너 제거하기
    #+BEGIN_SRC sh
-   docker stop [OPTIONS] CONTAINER [CONTAINER...]
+   docker rm [OPTIONS] CONTAINER_ID [CONTAINER...]
    #+END_SRC
 6. 중지된 컨테이너 일괄 제거하기
    #+BEGIN_SRC sh

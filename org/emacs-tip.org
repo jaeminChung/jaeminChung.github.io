@@ -11,9 +11,14 @@
 
 1. Using org-mode to write about computer programming http://clubctrl.com/org/prog/source.html
 2. How to install emacs snapshot on Ubuntu https://askubuntu.com/questions/297170/how-to-install-emacs-24-3-on-ubuntu
-#+BEGIN_SRC sh
-    sudo apt-add-repository ppa:ubuntu-elisp/ppa
-    sudo apt-get update
-    sudo apt-get install emacs-snapshot emacs-snapshot-el
-#+END_SRC
+  #+BEGIN_SRC sh
+      sudo apt-add-repository ppa:ubuntu-elisp/ppa
+      sudo apt-get update
+      sudo apt-get install emacs-snapshot emacs-snapshot-el
+  #+END_SRC
+3. How to fix emacs segmentation fault error in elementary os
+   edit emacs.desktop file
+   #+BEGIN_SRC shell
+   Exec=env XLIB_SKIP_ARGB_VISUALS=1 emacs %F
+   #+END_SRC
  

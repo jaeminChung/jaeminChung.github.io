@@ -6,7 +6,7 @@
 #+DATE: 2017-09-10 일 22:03
 #+TITLE: 리눅스 개발환경 설정
 #+DESCRIPTION: 리눅스 개발환경 설정
-#+TAGS: linux
+#+TAGS: linux,link
 #+CATEGORIES: linux
 
 1. 자바 설치 : https://opentutorials.org/module/516/5558

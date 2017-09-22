@@ -9,7 +9,7 @@
 #+TAGS: python
 #+CATEGORIES: python
 
-#+BEGIN_SRC python 설명
+#+BEGIN_SRC python
 import os
 import re
 import urllib.request

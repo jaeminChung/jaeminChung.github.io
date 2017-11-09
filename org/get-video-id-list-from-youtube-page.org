@@ -1,0 +1,25 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: hijam76
+#+DATE: 2017-09-15 금 09:58
+#+TITLE: get video id list from youtube page
+#+DESCRIPTION: python scraping
+#+TAGS: python
+#+CATEGORIES: python
+
+#+BEGIN_SRC python
+import os
+import re
+import urllib.request
+
+f = urllib.request.urlopen('https://www.youtube.com/c/highwill76/videos')
+contents = f.read().decode('utf-8')
+urls = re.findall(r'watch\?v=([^"]+)', contents)
+unique_urls = []
+for url in urls:
+    if url not in unique_urls:
+        unique_urls.append(url)
+        print(url)
+#+END_SRC

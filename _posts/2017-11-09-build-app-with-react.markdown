@@ -6,5 +6,5 @@ categories: Programming
 permalink: /archivers/react
 ---
 
-* [React Native]:   https://facebook.github.io/react-native/
-* [Expo]:           https://expo.io/
+* [React Native](https://facebook.github.io/react-native/)
+* [Expo](http://expo.io/)

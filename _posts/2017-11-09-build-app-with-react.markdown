@@ -8,3 +8,5 @@ permalink: /archivers/react
 
 * [React Native](https://facebook.github.io/react-native/)
 * [Expo](http://expo.io/)
+* [Snack Expo](https://snack.expo.io/)
+* [CodePen](https://codepen.io/)

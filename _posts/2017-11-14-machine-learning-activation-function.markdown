@@ -11,5 +11,17 @@ Activation Function
 
 * Sigmoid
 \begin{align\*}
-    \sigma(x) = \frac{1}{(1+e^2)}
+  \sigma(x) = \frac{1}{(1+e^2)}
+\end{align\*}
+* tanh
+\begin{align\*}
+  tanh(x)
+\end{align\*}
+* ReLU : Rectified Linear Unit
+\begin{align\*}
+  max(0,x)
+\end{align\*}
+* Leaky ReLU
+\begin{align\*}
+  max(0.1x,x)
 \end{align\*}

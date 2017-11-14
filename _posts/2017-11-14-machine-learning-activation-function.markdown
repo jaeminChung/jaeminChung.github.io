@@ -8,8 +8,6 @@ use_math: true
 ---
 
 Activation Function
-
-And test a display math without equaltion number:
 \begin{align\*}
-    theta(x) = \frac{1}{(1+e^2}
+    theta(x) = \frac{1}{(1+e^2)}
 \end{align\*}

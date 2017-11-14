@@ -1,16 +1,13 @@
 ---
-date: 2017-09-15
-tags: 
-- python
-author: hijam76
 layout: post
-title: get video id list from youtube page
-excerpt: python scraping
-categories: 
-- python
+title:  "Get video id list from youtube page"
+date:   2017-09-15 09:58:13
+categories: python
+permalink: /archivers/get-video-id-list-from-youtube-page
 ---
-<div class="org-src-container">
-<pre class="src src-python">import os
+
+```python
+import os
 import re
 import urllib.request
 
@@ -22,5 +19,4 @@ for url in urls:
     if url not in unique_urls:
         unique_urls.append(url)
         print(url)
-</pre>
-</div>
+```

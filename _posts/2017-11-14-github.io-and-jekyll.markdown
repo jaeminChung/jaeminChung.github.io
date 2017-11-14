@@ -3,7 +3,7 @@ layout: post
 title:  "Github.io & Jekyll"
 date:   2017-11-14 22:11:13
 categories: Jekyll
-permalink: /archivers/github.io-and-jekyll
+permalink: /archivers/github-and-jekyll
 ---
 
 * [How to use MathJax in Jekyll generated Github pages](https://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)

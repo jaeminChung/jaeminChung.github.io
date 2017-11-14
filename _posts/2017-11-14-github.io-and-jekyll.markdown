@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Github.io & Jekyll"
+date:   2017-11-14 22:11:13
+categories: Jekyll
+permalink: /archivers/github.io-and-jekyll
+---
+
+* [How to use MathJax in Jekyll generated Github pages](https://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
+  - mathjax script 소스 주소는 https://cdn.mathjax.... 과 같이 https로 지정해야 브라우저에서 안전하지 않은 스크립트를 로드하지 않는 문제를 해결할 수 있음
+* [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)

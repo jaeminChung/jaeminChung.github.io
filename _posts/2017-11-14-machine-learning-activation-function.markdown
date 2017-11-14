@@ -8,6 +8,8 @@ use_math: true
 ---
 
 Activation Function
+
+* Sigmoid
 \begin{align\*}
     \sigma(x) = \frac{1}{(1+e^2)}
 \end{align\*}

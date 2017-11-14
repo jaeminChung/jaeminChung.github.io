@@ -9,5 +9,5 @@ use_math: true
 
 Activation Function
 \begin{align\*}
-    theta(x) = \frac{1}{(1+e^2)}
+    \sigma(x) = \frac{1}{(1+e^2)}
 \end{align\*}

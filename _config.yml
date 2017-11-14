@@ -32,6 +32,6 @@ paginate_path: "page:num"
 highlighter: rouge
 markdown: maruku
 
-#maruku:
-#  input: GFM
-#  syntax_highlighter: rouge
+maruku:
+  input: GFM
+  syntax_highlighter: rouge

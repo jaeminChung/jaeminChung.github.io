@@ -18,7 +18,7 @@ Linear Regression
 \end{align\*}
 *Minimize cost
 \begin{align\*}
-  minimize_{W,b} cost(W,b)
+  \minimize\limits_{W,b} cost(W,b)
 \end{align\*}
 
 

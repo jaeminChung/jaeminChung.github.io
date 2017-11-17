@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Machine learning activation function"
+title:  "Machine learning Basic"
 date:   2017-11-14 12:44:13
 categories: ML
 permalink: /archivers/machine-learning-basic
@@ -14,8 +14,13 @@ Linear Regression
 \end{align\*}
 * Cost function
 \begin{align\*}
-  cost = \frac{1}{m} \sum_{i=1}^m (H(x^{(i)}) - y^{(i)})^2
+  cost(W,b) = \frac{1}{m} \sum_{i=1}^m (H(x^{(i)}) - y^{(i)})^2
 \end{align\*}
+*Minimize cost
+\begin{align\*}
+  minimize_{W,b} cost(W,b)
+\end{align\*}
+
 
 Activation Function
 

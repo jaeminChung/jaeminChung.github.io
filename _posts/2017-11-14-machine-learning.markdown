@@ -16,7 +16,7 @@ Linear Regression
 \begin{align\*}
   cost(W,b) = \frac{1}{m} \sum_{i=1}^m (H(x^{(i)}) - y^{(i)})^2
 \end{align\*}
-*Minimize cost
+* Minimize cost
 \begin{align\*}
   \minimize\limits_{W,b} cost(W,b)
 \end{align\*}

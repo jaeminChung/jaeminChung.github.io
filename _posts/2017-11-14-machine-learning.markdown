@@ -3,9 +3,19 @@ layout: post
 title:  "Machine learning activation function"
 date:   2017-11-14 12:44:13
 categories: ML
-permalink: /archivers/ml-activation-function
+permalink: /archivers/machine-learning-basic
 use_math: true
 ---
+Linear Regression
+
+* Hypothesis
+\begin{align\*}
+  H(x) = Wx + b
+\end{align\*}
+* Cost function
+\begin{align\*}
+  cost = \frac{1}{m} \sum_{i=1}^m (H(x^{(i)}) - y^{(i)})^2
+\end{align\*}
 
 Activation Function
 

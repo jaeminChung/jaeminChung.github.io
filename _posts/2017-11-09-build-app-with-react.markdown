@@ -11,3 +11,5 @@ permalink: /archivers/react
 * [Expo's vector icons](http://expo.github.io/vector-icons)
 * [Snack Expo](https://snack.expo.io/)
 * [CodePen](https://codepen.io/)
+* [Webpack](https://webpack.github.io/)
+* [create react app](https://github.com/facebookincubator/create-react-app)

@@ -36,7 +36,7 @@ Activation Function
 
 * Sigmoid
 \begin{align\*}
-  \sigma(x) = \frac{1}{(1+e^2)}
+  \sigma(x) = \frac{1}{(1+e^{-x})}
 \end{align\*}
 * tanh
 \begin{align\*}

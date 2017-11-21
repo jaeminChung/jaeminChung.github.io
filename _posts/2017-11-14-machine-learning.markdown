@@ -8,12 +8,12 @@ use_math: true
 ---
 Gradient descent algorithm
 
-+ $$ cost(W) = {1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
-+ $$ cost(W) = {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
-+ $$ W := W - \alpha{\delta \over \delta W}cost(W) $$
-+ $$ W := W - \alpha{\delta \over \delta W} {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
-+ $$ W := W - \alpha{1 \over 2m} \sum_{i=1}^{m} 2(Wx^{(i)}-y^{(i)}) x^{(i)} $$
-+ $$ W := W - \alpha{1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)}) x^{(i)} $$  
+1. $$ cost(W) = {1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
+2. $$ cost(W) = {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
+3. $$ W := W - \alpha{\delta \over \delta W}cost(W) $$
+4. $$ W := W - \alpha{\delta \over \delta W} {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
+5. $$ W := W - \alpha{1 \over 2m} \sum_{i=1}^{m} 2(Wx^{(i)}-y^{(i)}) x^{(i)} $$
+6. $$ W := W - \alpha{1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)}) x^{(i)} $$  
 
 
 Linear Regression

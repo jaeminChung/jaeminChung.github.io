@@ -6,6 +6,16 @@ categories: ML
 permalink: /archivers/machine-learning-basic
 use_math: true
 ---
+Gradient descent algorithm
+
+  $$ cost(W) = {1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
+  <p>$$ cost(W) = {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$</p>
+  <p>$$ W := W - \alpha{\delta \over \delta W}cost(W) $$</p>
+  <p>$$ W := W - \alpha{\delta \over \delta W} {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$</p>
+  <p>$$ W := W - \alpha{1 \over 2m} \sum_{i=1}^{m} 2(Wx^{(i)}-y^{(i)}) x^{(i)} $$</p>
+  <p>$$ W := W - \alpha{1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)}) x^{(i)} $$</p>  
+
+
 Linear Regression
 
 * Hypothesis

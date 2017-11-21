@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "라마찬드란 박사의 두뇌 실험실"
+title:  "대망"
 date:   2016-01-16 09:00:13
 categories: book
 permalink: /archivers/대망

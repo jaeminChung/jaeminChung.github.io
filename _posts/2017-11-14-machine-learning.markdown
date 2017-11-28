@@ -33,13 +33,13 @@ Logistic classification
   H(X) = \frac{1}{ 1 + e^{-W^T X}}
 \end{align\*}
 * Cost function
-$$
+\[
   C(H(x),y) = 
     \begin{cases}
     -\log (H(x)) & : y = 1 \\
     -\log (1-H(x)) & : y = 0
     \end{cases}
-$$
+\]
 \begin{align\*}
   C(H(x),y) = -y\log (H(x)) - (1-y)\log (1-H(x))
 \end{align\*}

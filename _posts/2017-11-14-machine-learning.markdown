@@ -6,7 +6,7 @@ categories: ML
 permalink: /archivers/machine-learning-basic
 use_math: true
 ---
-Gradient descent algorithm - Linear Regression
+# Gradient descent algorithm - Linear Regression
 
 1. $$ cost(W) = {1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
 2. $$ cost(W) = {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
@@ -16,52 +16,38 @@ Gradient descent algorithm - Linear Regression
 6. $$ W := W - \alpha{1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)}) x^{(i)} $$  
 
 
-Linear Regression
+# Linear Regression
 
-* Hypothesis
-\begin{align\*}
+## Hypothesis
+$$
   H(x) = Wx + b
-\end{align\*}
-* Cost function
-\begin{align\*}
+$$
+## Cost function
+$$
   cost(W,b) = \frac{1}{m} \sum_{i=1}^m (H(x^{(i)}) - y^{(i)})^2
-\end{align\*}
+$$
 
-Logistic classification
-* Hypothesis
-\begin{align\*}
+# Logistic classification
+## Hypothesis
+$$
   H(X) = \frac{1}{ 1 + e^{-W^T X}}
-\end{align\*}
-* Cost function
-\begin{align}
-  C(H(x),y) = 
+$$
+## Cost function
+1. $$ C(H(x),y) = 
     \begin{cases}
     -\log (H(x)) & : y = 1 \\
     -\log (1-H(x)) & : y = 0
-    \end{cases}
-\end{align}
-\begin{align\*}
-  C(H(x),y) = -y\log (H(x)) - (1-y)\log (1-H(x))
-\end{align\*}
-\begin{align\*}
-  cost(W) = - \frac{1}{m} \sum y\log (H(x)) + (1-y)\log (1-H(x))
-\end{align\*}
+    \end{cases} $$
+2. $$ C(H(x),y) = -y\log (H(x)) - (1-y)\log (1-H(x)) $$
+3. $$ cost(W) = - \frac{1}{m} \sum y\log (H(x)) + (1-y)\log (1-H(x)) $$
 
-Activation Function
+# Activation Function
 
-* Sigmoid
-\begin{align\*}
-  \sigma(x) = \frac{1}{(1+e^{-x})}
-\end{align\*}
-* tanh
-\begin{align\*}
-  tanh(x)
-\end{align\*}
-* ReLU : Rectified Linear Unit
-\begin{align\*}
-  max(0,x)
-\end{align\*}
-* Leaky ReLU
-\begin{align\*}
-  max(0.1x,x)
-\end{align\*}
+## Sigmoid
+$$ \sigma(x) = \frac{1}{(1+e^{-x})} $$
+## tanh
+$$ tanh(x) $$
+## ReLU : Rectified Linear Unit
+$$ max(0,x) $$
+## Leaky ReLU
+$$ max(0.1x,x) $$

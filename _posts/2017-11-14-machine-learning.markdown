@@ -37,7 +37,7 @@ Logistic classification
 C(H(x),y) = 
     \begin{cases}
     -\log (H(x)) & : y = 1 \\
-    -\log (1-H(x)) & : y = 0 \\
+    -\log (1-H(x)) & : y = 0
     \end{cases}
 \end{align\*}
 \begin{align\*}

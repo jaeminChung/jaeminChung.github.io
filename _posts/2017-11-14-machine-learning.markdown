@@ -24,7 +24,7 @@ $$
 $$
 ### Cost function
 $$
-  cost(W,b) = \frac{1}{m} \sum_{i=1}^m (H(x^{(i)}) - y^{(i)})^2
+  cost(W,b) = \frac{1}{m} \sum_{i=1}^{m} (H(x^{(i)}) - y^{(i)})^2
 $$
 
 ## Logistic classification

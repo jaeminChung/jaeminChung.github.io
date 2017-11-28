@@ -6,7 +6,7 @@ categories: ML
 permalink: /archivers/machine-learning-basic
 use_math: true
 ---
-Gradient descent algorithm(Linear Regression)
+Gradient descent algorithm \(Linear Regression\)
 
 1. $$ cost(W) = {1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$
 2. $$ cost(W) = {1 \over 2m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)})^{2} $$

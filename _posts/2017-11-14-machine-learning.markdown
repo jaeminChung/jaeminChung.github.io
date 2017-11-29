@@ -15,23 +15,19 @@ use_math: true
 5. $$ W := W - \alpha{1 \over 2m} \sum_{i=1}^{m} 2(Wx^{(i)}-y^{(i)}) x^{(i)} $$
 6. $$ W := W - \alpha{1 \over m} \sum_{i=1}^{m} (Wx^{(i)}-y^{(i)}) x^{(i)} $$  
 
-
 ## Linear Regression
 
 ### Hypothesis
-$$
-  H(x) = Wx + b
-$$
+$$ H(x) = Wx + b $$
+
 ### Cost function
-$$
-  cost(W,b) = \frac{1}{m} \sum_{i=1}^{m} (H(x^{(i)}) - y^{(i)})^2
-$$
+$$ cost(W,b) = \frac{1}{m} \sum_{i=1}^{m} (H(x^{(i)}) - y^{(i)})^2 $$
 
 ## Logistic classification
+
 ### Hypothesis
-$$
-  H(X) = \frac{1}{ 1 + e^{-W^T X}}
-$$
+$$ H(X) = \frac{1}{ 1 + e^{-W^T X}} $$
+
 ### Cost function
 1. $$ C(H(x),y) = 
     \begin{cases}
@@ -45,9 +41,12 @@ $$
 
 ### Sigmoid
 $$ \sigma(x) = \frac{1}{(1+e^{-x})} $$
+
 ### tanh
 $$ tanh(x) $$
+
 ### ReLU : Rectified Linear Unit
 $$ max(0,x) $$
+
 ### Leaky ReLU
 $$ max(0.1x,x) $$

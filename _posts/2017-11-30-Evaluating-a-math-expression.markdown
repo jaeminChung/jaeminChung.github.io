@@ -7,7 +7,7 @@ permalink: /archivers/evaluating-a-math-expression
 ---
 The Art!
 
-[Origin](https://stackoverflow.com/questions/3422673/evaluating-a-math-expression-given-in-string-form)
+[https://stackoverflow.com/questions/3422673/evaluating-a-math-expression-given-in-string-form](https://stackoverflow.com/questions/3422673/evaluating-a-math-expression-given-in-string-form)
 ```java
 public static double eval(final String str) {
     return new Object() {
@@ -29,7 +29,9 @@ public static double eval(final String str) {
         double parse() {
             nextChar();
             double x = parseExpression();
-            if (pos < str.length()) throw new RuntimeException("Unexpected: " + (char)ch);
+            if (pos < str.length()) {
+                throw new RuntimeException("Unexpected: " + (char)ch);
+            }
             return x;
         }
 

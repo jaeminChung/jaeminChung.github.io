@@ -2,7 +2,7 @@
 layout: post
 title:  "프로그래밍 학습 자료 링크"
 date:   2017-11-14 12:44:13
-categories: Programming
+categories: programming
 permalink: /archivers/programming-study
 ---
 

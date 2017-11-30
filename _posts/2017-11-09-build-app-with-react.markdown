@@ -2,7 +2,7 @@
 layout: post
 title:  "React로 안드로이드/iOS 앱 만들기"
 date:   2017-11-09 22:44:13
-categories: Programming
+categories: programming
 permalink: /archivers/react
 ---
 

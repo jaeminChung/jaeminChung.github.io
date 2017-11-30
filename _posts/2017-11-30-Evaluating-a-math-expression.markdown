@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Get video id list from youtube page"
-date:   2017-09-15 09:58:13
-categories: python
-permalink: /archivers/get-video-id-list-from-youtube-page
+title:  "Evaluating a math expression."
+date:   2017-11-30
+categories: programming
+permalink: /archivers/evaluating-a-math-expression
 ---
 The Art!
 

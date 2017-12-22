@@ -7,15 +7,15 @@ permalink: /archivers/linux-screen
 ---
 
 1. 스크린 실행
-'''bash
+```bash
    screen
-'''
+```
 2. 작업실행
 3. 스크린 빠져나오기
-'''bash
+```bash
 Ctl-A D
-'''
+```
 4. 스크린 다시 접속
-'''bash
+```bash
    screen -r
-'''
+```

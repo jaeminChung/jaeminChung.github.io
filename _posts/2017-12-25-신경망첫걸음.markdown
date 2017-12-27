@@ -13,3 +13,5 @@ permalink: /archivers/신경망첫걸음
 > 무언가를 진정 이해하려면, 직접 만들어봐야 합니다.
 
 > 작게 시작하되 크게 만들어나가십시오.
+
+> https://github.com/makeyourownneuralnetwork/makeyourownneuralnetwork

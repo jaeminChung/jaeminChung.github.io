@@ -10,16 +10,16 @@ permalink: /archivers/파이썬머신러닝
 * 윤인성 역
 * 위키북스
 
-> 동영상 강의 [https://www.youtube.com/playlist?list=PLBXuLgInP-5m_vn9ycXHRl7hlsd1huqmS]
+> [동영상 강의](https://www.youtube.com/playlist?list=PLBXuLgInP-5m_vn9ycXHRl7hlsd1huqmS)
 
-> 예제 [http://wikibook.co.kr/python-machine-learning/]
+> [예제](http://wikibook.co.kr/python-machine-learning/)
 
-> scikit-learn [http://scikit-learn.org/]
+> [scikit-learn](http://scikit-learn.org/)
 
-> Keras [https://keras.io/]
+> [Keras](https://keras.io/)
 
-> KoNLPy [http://konlpy.org/ko/]
+> [KoNLPy](http://konlpy.org/ko/)
 
-> Gensim [https://radimrehurek.com/gensim/]
+> [Gensim](https://radimrehurek.com/gensim/)
 
-> OpenCV [https://opencv.org/]
+> [OpenCV](https://opencv.org/)

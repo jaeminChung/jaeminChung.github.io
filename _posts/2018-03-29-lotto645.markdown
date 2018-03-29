@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "나눔로또 6/45"
+date:   2018-03-29 12:44:13
+categories: ML
+permalink: /archivers/lotto645
+---
+## 하나도 안맞지만 심심풀이로 ^^;
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.linalg import toeplitz
+from keras.models import Sequential
+from keras.layers import LSTM, Dense
+from keras.layers import TimeDistributed
+
+s = np.loadtxt('lotto.txt', delimiter='\t').flatten()
+
+S = np.fliplr(toeplitz(np.r_[s[-1], np.zeros(s.shape[0] - 6)], s[::-1]))
+
+model2 = Sequential()
+model2.add(LSTM(50, input_shape=(7, 1), return_sequences=True, recurrent_dropout=0.2, kernel_initializer='random_uniform'))
+model2.add(TimeDistributed(Dense(1)))
+model2.compile(loss='mse', optimizer='sgd')
+
+X_train2 = S[:-7, 0:7][:, :, np.newaxis]
+Y_train2 = S[:-7, 7:14][:, :, np.newaxis]
+
+history2 = model2.fit(X_train2, Y_train2, epochs=28, verbose=0)
+
+plt.plot(history2.history["loss"])
+plt.title("Loss")
+plt.show()
+
+prev_lotto = np.array([[[2.], [10.], [14.], [22.], [32.], [36.], [41]]])
+print(model2.predict(prev_lotto))
+```

@@ -11,10 +11,12 @@ permalink: /archivers/fastai_with_docker
 sudo apt install nvidia-driver-390
 sudo apt install nvidia-cuda-toolkit
 ```
+
 2. docker 설치
 ```sh
 sudo apt install docker-ce
 ```
+
 3. nvidia docker 설치
 ```sh
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey
@@ -27,10 +29,12 @@ sudo apt-get update
 sudo apt-get install -y nvidia-docker2
 sudo pkill -SIGHUP dockerd
 ```
+
 4. fast.ai docker image download & run
 ```sh
 sudo docker run --runtime=nvidia -dit -p 8888:8888 paperspace/fastai:cuda9_pytorchJL
 ```
+
 5. jupyter lab token 확인
 ```sh
 sudo docker logs $(docker ps -q)

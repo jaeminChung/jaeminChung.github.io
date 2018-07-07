@@ -3,7 +3,7 @@ layout: post
 title:  "도커로 course.fast.ai 학습환경 설정"
 date:   2018-07-07
 categories: ML
-permalink: /archivers/fast.ai_with_docker
+permalink: /archivers/fastai_with_docker
 ---
 
 1. nvidia driver 설치

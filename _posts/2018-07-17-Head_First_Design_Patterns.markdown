@@ -24,3 +24,4 @@ permalink: /archivers/HeadFirstDesignPatterns
 12. 싱글턴 패턴 : 딱 한 객체만 생성되도록 합니다.
 13. 추상 팩토리 패턴 : 클라이언트에서 구상 클래스를 지정하지 않으면서도 일군의 객체를 생성할 수 있도록 해 줍니다.
 14. 커맨드 패턴 : 요청을 객체로 감쌉니다.
+15. [예제소스코드](http://wickedlysmart.com/head-first-design-patterns/)

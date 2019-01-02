@@ -3,7 +3,7 @@ layout: post
 title:  "PostgreSQL에서 다른 DB테이블과의 연결 만들기"
 date:   2019-01-02 22:35:13
 categories: programming
-permalink: /archivers/postgresql.connect.to.other.db.table
+permalink: /archivers/PostgreSQL에서다른DB연결
 ---
 1. extension 설치
 ```sql

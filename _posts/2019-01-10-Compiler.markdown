@@ -4,6 +4,7 @@ title:  "컴파일러"
 date:   2019-01-04 22:35:13
 categories: programming
 permalink: /archivers/compiler
+use_math: true
 ---
 1. 형식 언어 (formal language)
 2. 형식 문법 (formal grammar)

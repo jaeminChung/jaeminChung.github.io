@@ -31,35 +31,20 @@ use_math: true
    q_0 = q_0 \\\\
    F = \\{ q_3 \\}
    $$
-6. 모호한 문법을 모호하지 않은 문법으로
-
-   1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | \\( E \\) | id
-   
-   1.2 E -> E + T | E - T | T
-   
-       T -> T * F | T / F | F
-       
-       F -> P^F | P
-       
-       P -> -P | H
-       
-       H -> \\( E \\) | id
-       
-   2.1 stat -> if expr then stat
-   
-             | if expr then stat else stat
-             
-             | other
-             
-   2.2 stat -> matched
-   
-             | unmatched
-             
-       matched -> if expr then matched else matched
-       
-               | other
-               
-       unmatched -> if expr then stat
-       
-                 | if expr then matched else unmatched
+6. 모호한 문법을 모호하지 않은 문법으로  
+   1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | \\( E \\) | id  
+   1.2 E -> E + T | E - T | T  
+       T -> T * F | T / F | 
+       F -> P^F | 
+       P -> -P | H  
+       H -> \\( E \\) | 
+   2.1 stat -> if expr then stat  
+             | if expr then stat else stat  
+             | other  
+   2.2 stat -> matched  
+             | unmatched  
+       matched -> if expr then matched else matched  
+               | other  
+       unmatched -> if expr then stat  
+                 | if expr then matched else unmatched  
                  

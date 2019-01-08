@@ -23,15 +23,16 @@ use_math: true
    $$
    M = (Q, \sum, \delta, q_0, F) \\\\
    단, Q = \{ q_0, q_1, q_2, q_3 \} \\\\
-   \sum = \\{ a, b \\} \\\\
-   \delta : \delta (q_0, a) = \\{ q_0, q_1 \\} \\\\
-   \delta (q_0, b) = \\{ q_0 \\} \\\\
-   \delta (q_1, b) = \\{ q_2 \\} \\\\
-   \delta (q_2, b) = \\{ q_3 \\} \\\\   
+   \sum = \{ a, b \} \\\\
+   \delta : \delta (q_0, a) = \{ q_0, q_1 \} \\\\
+   \delta (q_0, b) = \{ q_0 \} \\\\
+   \delta (q_1, b) = \{ q_2 \} \\\\
+   \delta (q_2, b) = \{ q_3 \} \\\\   
    q_0 = q_0 \\\\
-   F = \\{ q_3 \\}
+   F = \{ q_3 \}
    $$
-6. 모호한 문법을 모호하지 않은 문법으로  
+6. 모호한 문법을 모호하지 않은 문법으로
+```
    1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | \\( E \\) | id  
    1.2 E -> E + T | E - T | T  
        T -> T * F | T / F | 
@@ -47,4 +48,4 @@ use_math: true
                | other  
        unmatched -> if expr then stat  
                  | if expr then matched else unmatched  
-                 
+```                 

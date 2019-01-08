@@ -22,7 +22,7 @@ use_math: true
 
    $$
    M = (Q, \sum, \delta, q_0, F) \\\\
-   단, Q = \\{ q_0, q_1, q_2, q_3 \\} \\\\
+   단, Q = \{ q_0, q_1, q_2, q_3 \} \\\\
    \sum = \\{ a, b \\} \\\\
    \delta : \delta (q_0, a) = \\{ q_0, q_1 \\} \\\\
    \delta (q_0, b) = \\{ q_0 \\} \\\\
@@ -32,18 +32,34 @@ use_math: true
    F = \\{ q_3 \\}
    $$
 6. 모호한 문법을 모호하지 않은 문법으로
-   1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | (E) | id
+
+   1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | \\( E \\) | id
+   
    1.2 E -> E + T | E - T | T
+   
        T -> T * F | T / F | F
+       
        F -> P^F | P
+       
        P -> -P | H
-       H -> (E) | id
+       
+       H -> \\( E \\) | id
+       
    2.1 stat -> if expr then stat
+   
              | if expr then stat else stat
+             
              | other
+             
    2.2 stat -> matched
+   
              | unmatched
+             
        matched -> if expr then matched else matched
+       
                | other
+               
        unmatched -> if expr then stat
+       
                  | if expr then matched else unmatched
+                 

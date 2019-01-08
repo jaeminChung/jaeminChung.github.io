@@ -6,7 +6,7 @@ categories: programming
 permalink: /archivers/compiler
 use_math: true
 ---
-1. 형식 언어 (formal language)
+1. 형식 언어 \(formal language\)
 2. 형식 문법 (formal grammar)
    1. 논터미널 기호
    2. 터미널 기호
@@ -18,5 +18,13 @@ use_math: true
 4. 표기법
    1. BNF (Backus-Naur Form)
    2. EBNF (Extended BNF)
-5. $$ M = (Q, \sigma, \delta, q_0, F) $$
-   
+5. ![automata](automata.png)
+   $$ M = (Q, \sum, \delta, q_0, F) $$
+   $$ 단, Q = {q_0, q_1, q_2, q_3} $$
+   $$ \sum = {a, b} $$
+   $$ \delta : \delta (q_0, a) = {q_0, q_1} $$
+   $$ \delta (q_0, b) = {q_0} $$
+   $$ \delta (q_1, b) = {q_2} $$
+   $$ \delta (q_2, b) = {q_3} $$   
+   $$ q_0 = q_0 $$
+   $$ F = {q_3} $$

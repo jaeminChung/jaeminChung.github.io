@@ -20,13 +20,13 @@ use_math: true
    2. EBNF Extended BNF
 5. $$
    M = (Q, \sum, \delta, q_0, F) \\\\
-   단, Q = {q_0, q_1, q_2, q_3} \\\\
-   \sum = {a, b} \\\\
-   \delta : \delta (q_0, a) = {q_0, q_1} \\\\
-   \delta (q_0, b) = {q_0} \\\\
-   \delta (q_1, b) = {q_2} \\\\
-   \delta (q_2, b) = {q_3} \\\\   
+   단, Q = \\{q_0, q_1, q_2, q_3\\} \\\\
+   \sum = \\{a, b\\} \\\\
+   \delta : \delta (q_0, a) = \\{q_0, q_1\\} \\\\
+   \delta (q_0, b) = \\{q_0\\} \\\\
+   \delta (q_1, b) = \\{q_2\\} \\\\
+   \delta (q_2, b) = \\{q_3\\} \\\\   
    q_0 = q_0 \\\\
-   F = {q_3}
+   F = \\{q_3\\}
    $$
    ![automata]({{ site.url }}/assets/automata.png)

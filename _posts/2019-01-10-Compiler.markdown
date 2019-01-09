@@ -33,12 +33,12 @@ use_math: true
    $$
 6. 모호한 문법을 모호하지 않은 문법으로
 ``` ebnf
-   1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | \\( E \\) | id  
+   1.1 P : E -> E + E | E - E | E * E | E / E | E ^ E | -E | (E) | id  
    1.2 E -> E + T | E - T | T  
        T -> T * F | T / F | 
        F -> P^F | 
        P -> -P | H  
-       H -> \\( E \\) | 
+       H -> (E) | id
    2.1 stat -> if expr then stat  
              | if expr then stat else stat  
              | other  

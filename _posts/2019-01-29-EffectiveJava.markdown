@@ -10,6 +10,6 @@ permalink: /archivers/effectivejava
 * 개앞맵시(이복연) 옮김
 * 인사이트
 
-> [백시선님의 이펙티브 자바 강의](http://bit.ly/2Lu4BGi)
+> [백기선님의 이펙티브 자바 강의](http://bit.ly/2Lu4BGi)
 
 > [한국어판 깃허브 저장소](https://git.io/fAm6s)

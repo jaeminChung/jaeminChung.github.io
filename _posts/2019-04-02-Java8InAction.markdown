@@ -3,7 +3,7 @@ layout: post
 title:  "자바8 인 액션"
 date:   2019-04-02 09:00:13
 categories: book
-permalink: /archivers/java.8.in.action
+permalink: /archivers/java_8_in_action
 ---
 
 * 라울-게이브리얼 우르마 , 마리오 푸스코 , 앨런 마이크로프트

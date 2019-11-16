@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "코틀린으로 안드로이드 앱 만들기"
-date:   2017-11-09 22:44:13
+date:   2019-11-16 22:44:13
 categories: programming
-permalink: /archivers/react
+permalink: /archivers/androidwithkotlin
 ---
 
 ## 네트워크 요청

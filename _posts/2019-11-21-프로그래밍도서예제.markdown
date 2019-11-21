@@ -2,14 +2,14 @@
 layout: post
 title:  "프로그래밍 도서 예제와 참고자료"
 date:   2019-11-21
-categories: book
+categories: programming
 permalink: /archivers/프로그래밍도서예제
 ---
 
 ## 파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문"
-* 쿠지라 히코우즈쿠에 저
-* 윤인성 역
-* 위키북스
+### 쿠지라 히코우즈쿠에 저
+### 윤인성 역
+### 위키북스
 
 - [동영상 강의](https://www.youtube.com/playlist?list=PLBXuLgInP-5m_vn9ycXHRl7hlsd1huqmS)
 - [예제](http://wikibook.co.kr/python-machine-learning/)
@@ -18,3 +18,49 @@ permalink: /archivers/프로그래밍도서예제
 - [KoNLPy](http://konlpy.org/ko/)
 - [Gensim](https://radimrehurek.com/gensim/)
 - [OpenCV](https://opencv.org/)
+
+## 자바퍼즐러
+### 죠슈아 블로크, 닐 개프터 저
+### 윤인성 옮김
+### 한빛미디어
+
+- [소스 코드 다운로드](http://www.hanbit.co.kr/exam/2144)
+
+## 자바8 인 액션
+### 라울-게이브리얼 우르마 , 마리오 푸스코 , 앨런 마이크로프트
+### 우정은 역
+### 한빛미디어
+
+- [Checker Framework](http://www.checker-framework.org/)
+- [Annotation](http://goo.gl/V4b2g1)
+- [나스호른](http://openjdk.java.net/projects/nashorn)
+- [콤팩트 프로파일](http://openjdk.java.net/jeps/161)
+- [JDK 개선제안](http://openjdk.java.net/jeps/0)
+- Michael Feathers : Working Effectively with Legacy Code
+- [TemporalAdjusters](http://goo.gl/e1krg1)
+- [자바의 호환성](https://blogs.oracle.com/darcy/entry/kinds_of_compatibility)
+- [Design pattern](http://c2.com/cgi/wiki?GangOfFour)
+- [모든 익명 클래스를 람다표현식으로 변환할 수 있는 것은 아니다](http://goo.gl/p0k9T1)
+- [JMH 벤치마킹](http://java-performance.info/jmh)
+
+## 이펙티브 자바
+### 죠슈아 블로크 저
+### 개앞맵시(이복연) 옮김
+### 인사이트
+
+- [백기선님의 이펙티브 자바 강의](http://bit.ly/2Lu4BGi)
+- [한국어판 깃허브 저장소](https://git.io/fAm6s)
+
+## Head First Design Pattern
+### 에릭 프리먼, 엘리자베스 프리먼, 케이시 시에라, 버트 베이츠 저
+### 서환수 역
+### 한빛미디어
+
+- [예제소스코드](http://wickedlysmart.com/head-first-design-patterns/)
+
+## 스프링 부트2 레시피
+### 마틴 데이넘 지음
+### 최정호, 임진욱, 김명훈 옮김
+
+- [예제소스코드(한국어판)](http://www.acornpub.co.kr/book/spring-boot-2-recipes)
+- [예제소스코드(원서)](http://www.apress.com/9781484239629)

@@ -12,6 +12,12 @@ permalink: /archivers/프로그래밍도서예제
 
 - [소스 코드](http:/cafe.naver.com/gugucoding)
 
+## 스타트 스프링 부트
+#### 구멍가게 코딩단 저
+#### 남가람북스
+
+- [소스 코드](https://github.com/zerockcode)
+
 ## 처음 배우는 스프링 부트 2
 #### 김영재 저
 #### 한빛미디어
@@ -27,6 +33,7 @@ permalink: /archivers/프로그래밍도서예제
 #### 에이콘
 
 - [소스 코드](http://github.com/PacktPublishing/Android-Development-with-Kotlin/)
+- [not-null 주장 연산자(!!)를 안전한 코틀린 구문으로 대체할 수 있는 예제](http://bit.ly/2xg5JXt)
 
 ## 스프링부트 2.0 2/e
 #### 그렉 턴키스트 저

@@ -6,6 +6,13 @@ categories: programming
 permalink: /archivers/프로그래밍도서예제
 ---
 
+## 자바 병렬 프로그래밍(JAVA CONCURRENCY IN PRACTICE)
+#### 브라이언 게츠, 더그 리, 팀 피얼스, 조셉 보우비어, 데이빗 홈즈, 조슈아 블로쉬 저
+#### 강철구 역
+#### 에이콘
+
+- [소스 코드](http://jcip.net/)
+
 ## 코드로 배우는 스프링 웹 프로젝트(개정판)
 #### 구멍가게 코딩단 저
 #### 남가람북스

@@ -9,7 +9,7 @@ permalink: /archivers/시험대비
 ## 파일 읽고 쓰기
 - [캐릭터 단위(FileReader), 줄 단위(BufferedReader), 한번에(Scanner, Files)](https://jeong-pro.tistory.com/69)
 - [Java7 nio 파일과 디렉토리 탐색, 읽기, 쓰기](http://blog.naver.com/PostView.nhn?blogId=minis24&logNo=220686733911&parentCategoryNo=&categoryNo=82&viewDate=&isShowPopularPosts=false&from=postView)
-
+- [Java File IO: Modern APIs to Create, Read, Write & More](https://www.marcobehler.com/guides/java-files)
 ## 콘솔 읽고 쓰기
 ```java
 public static long time(Executor executor, int concurrency, Runnable action)

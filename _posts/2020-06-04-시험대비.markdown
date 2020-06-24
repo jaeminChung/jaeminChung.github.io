@@ -11,35 +11,35 @@ permalink: /archivers/시험대비
 - [Java7 nio 파일과 디렉토리 탐색, 읽기, 쓰기](http://blog.naver.com/PostView.nhn?blogId=minis24&logNo=220686733911&parentCategoryNo=&categoryNo=82&viewDate=&isShowPopularPosts=false&from=postView)
 - [Java File IO: Modern APIs to Create, Read, Write & More](https://www.marcobehler.com/guides/java-files)
 ## 콘솔 읽고 쓰기
-```java
-public static long time(Executor executor, int concurrency, Runnable action)
-       throws InterruptedException {
-       CountDownLatch ready = new CountDownLatch(concurrency);
-       CountDownLatch start = new CountDownLatch(1);
-       CountDownLatch done = new CountDownLatch(concurrency);
-       
-       for(int i=0; i < concurrency; i++) {
-         executor.execute(() -> {
-           try {
-              start.await();
-              action.run();
-           } catch(InterruptedException e) {
-              Thread.currentThread().interrupt();
-           } finally {
-              done.countDown();
-           }
-         }
-       });
-       
-       ready.await();
-       long startNanos = System.nanoTime();
-       start.countDown();
-       done.await();
-       return System.nanoTime() - startNanos;
-}
-```
 ## 소켓
 - [자바 동기(synchronous) 소켓 프로그래밍](https://jdm.kr/blog/154)
 ## Concurrency(쓰레드)
-
+### 참고코드
+  ```java
+  public static long time(Executor executor, int concurrency, Runnable action)
+         throws InterruptedException {
+         CountDownLatch ready = new CountDownLatch(concurrency);
+         CountDownLatch start = new CountDownLatch(1);
+         CountDownLatch done = new CountDownLatch(concurrency);
+         
+         for(int i=0; i < concurrency; i++) {
+           executor.execute(() -> {
+             try {
+                start.await();
+                action.run();
+             } catch(InterruptedException e) {
+                Thread.currentThread().interrupt();
+             } finally {
+                done.countDown();
+             }
+           }
+         });
+         
+         ready.await();
+         long startNanos = System.nanoTime();
+         start.countDown();
+         done.await();
+         return System.nanoTime() - startNanos;
+  }
+  ```
 ## 외부프로그램

@@ -39,7 +39,7 @@ public static long time(Executor executor, int concurrency, Runnable action)
 }
 ```
 ## 소켓
-
+- [자바 동기(synchronous) 소켓 프로그래밍](https://jdm.kr/blog/154)
 ## Concurrency(쓰레드)
 
 ## 외부프로그램

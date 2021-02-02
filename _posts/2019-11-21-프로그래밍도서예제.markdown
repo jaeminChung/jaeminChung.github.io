@@ -5,6 +5,12 @@ date:   2021-02-02
 categories: programming
 permalink: /archivers/프로그래밍도서예제
 ---
+## 파이토치 첫걸음
+#### 두세교 저
+#### 김완섭 역  
+#### 제이펍
+
+- [소스 코드](https://github.com/Jpub/PyTorch_firststep)
 
 ## 코딩셰프의 3분 딥러닝 케라스맛
 #### 김성진 저

@@ -1,10 +1,16 @@
 ---
 layout: post
 title:  "프로그래밍 도서 예제와 참고자료"
-date:   2019-11-21
+date:   2021-02-02
 categories: programming
 permalink: /archivers/프로그래밍도서예제
 ---
+
+## 코딩셰프의 3분 딥러닝 케라스맛
+#### 김성진 저
+#### 한빛미디어
+
+- [소스 코드](https://github.com/jskDr/keraspp)
 
 ## 자바 병렬 프로그래밍(JAVA CONCURRENCY IN PRACTICE)
 #### 브라이언 게츠, 더그 리, 팀 피얼스, 조셉 보우비어, 데이빗 홈즈, 조슈아 블로쉬 저

@@ -5,6 +5,14 @@ date:   2021-02-02
 categories: programming
 permalink: /archivers/프로그래밍도서예제
 ---
+## 자바 최적화
+#### 벤저민 J.에번스, 제임스 고프, 크리스 뉴랜드 저
+#### 이일웅 옮김
+#### 한빛미디어
+
+- [JSR-133 컴파일러 개발자를 위한 쿡북](http://gee.cs.oswego.edu/dl/jmm/cookbook.html)
+- [자바 메모리 모델 유형 자세히 살펴보기](https://shipilev.net/blog/2016/close-encounters-of-jmm-kind/)
+
 ## 파이토치 첫걸음
 #### 두세교 저
 #### 김완섭 역  

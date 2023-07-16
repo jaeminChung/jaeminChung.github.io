@@ -11,12 +11,24 @@ permalink: /archivers/시험대비
 - [Java7 nio 파일과 디렉토리 탐색, 읽기, 쓰기](http://blog.naver.com/PostView.nhn?blogId=minis24&logNo=220686733911&parentCategoryNo=&categoryNo=82&viewDate=&isShowPopularPosts=false&from=postView)
 - [Java File IO: Modern APIs to Create, Read, Write & More](https://www.marcobehler.com/guides/java-files)
 
-## 콘솔 읽고 쓰기
+## Gson 읽고 쓰기
+- [Gson 라이브러리 사용법/예제](https://hianna.tistory.com/629)
 
 ## 소켓
 - [자바 동기(synchronous) 소켓 프로그래밍](https://jdm.kr/blog/154)
 
+## Jetty
+- [Jetty를 이용한 Http 통신 (Server, Client)](https://blog.naver.com/PostView.naver?blogId=ambidext&logNo=222434508009&categoryNo=0&parentCategoryNo=10&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search
+)
+
+## 외부프로그램
+### URLClassLoader
+[java.net.URLClassLoader Example - Examples Java Code Geeks - 2022](https://examples.javacodegeeks.com/core-java/net/urlclassloader/java-net-urlclassloader-example/)
+
 ## Concurrency(쓰레드)
+### 타이머
+- https://jeong-pro.tistory.com/150
+
 ### 타임아웃
 [java - How to timeout a thread - Stack Overflow](https://stackoverflow.com/questions/2275443/how-to-timeout-a-thread)
 ### 참고코드
@@ -47,7 +59,3 @@ permalink: /archivers/시험대비
          return System.nanoTime() - startNanos;
   }
   ```
-
-## 외부프로그램
-### URLClassLoader
-[java.net.URLClassLoader Example - Examples Java Code Geeks - 2022](https://examples.javacodegeeks.com/core-java/net/urlclassloader/java-net-urlclassloader-example/)
